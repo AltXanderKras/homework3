@@ -11,10 +11,10 @@ public class Main {
             bonus = 0;
         }
 
-        int TotalAmount = account + deposit + bonus;
+        int totalAmount = account + deposit + bonus;
 
-            System.out.println("Общая сумма:" + TotalAmount + "р.");
-            System.out.println("Бонусных:" + bonus + "р.");
+        System.out.println("Общая сумма: " + totalAmount + "р.");
+        System.out.println("Бонусных: " + bonus + "р.");
 
     }
 }
